@@ -1,0 +1,66 @@
+/* Estilos generales */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #c0b5ff; 
+  color: #5000ac; 
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Contenedor principal */
+.container {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  background-color: #eadefd;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Título principal */
+h2 {
+  text-align: center;
+  color: #8629ff; /* Un color azul oscuro */
+  margin-bottom: 30px;
+}
+
+/* Estilos para los inputs */
+.form-control {
+  border-radius: 20px;
+  border: 1px solid #8543f0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Botón de cálculo */
+.btn-primary {
+  background-color: #8235ff; /* Un azul vivo */
+  border-color: #6f00ff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #a435ff;
+}
+
+/* Estilos para las alertas */
+.alert {
+  border-radius: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Estilos adicionales */
+.form-label {
+  color: #2c3e50;
+  font-weight: bold;
+}
